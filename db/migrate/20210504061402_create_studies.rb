@@ -10,3 +10,6 @@ class CreateStudies < ActiveRecord::Migration[6.1]
     end
   end
 end
+
+# Add validation on study
+# age_limit > 7 
